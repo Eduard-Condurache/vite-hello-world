@@ -1,47 +1,26 @@
 <script>
 
-import AppHeader from './components/AppHeader.vue';
+import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue'
 
 export default {
   data() {
-    return {
-      count: 0
-
-    }
+    return {}
   },
   components: {
-    AppHeader
-  },
-  methods: {
-    incrementCount() {
-      this.count++;
-    }
-  } 
+    AppTitle,
+    AppHero
+  }
 }
 </script>
 
 <template>
   <div>
-    <AppHeader/>
+    <AppTitle/>
+    <AppHero/>
     <main>
-      <button @click="incrementCount()">
-        {{ count }}
-      </button>
     </main>
   </div>
 </template>
 
-<style scoped>
-
-main {
-  text-align: center;
-}
-
-main button {
-  padding: 14px;
-  background-color: lightcoral;
-  border: none;
-  border-radius: 14px;
-}
-
-</style>
+<style scoped></style>

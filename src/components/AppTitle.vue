@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      message: 'Template Vite + Vue'
+      message: 'La mia prima app con Vite!'
 
     }
   }
@@ -21,7 +21,6 @@ export default {
 header {
   background-color: lightgreen;
   text-align: center;
-  margin-bottom: 14px;
   padding: 20px;
 }
 
